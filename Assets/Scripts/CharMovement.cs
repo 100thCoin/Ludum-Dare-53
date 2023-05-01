@@ -77,7 +77,7 @@ public class CharMovement : MonoBehaviour {
 			return;
 		} 
 
-		if (Input.GetKeyDown (KeyCode.R)) {
+		if (Input.GetKeyDown (KeyCode.R) && Global.DataHolder.LevelID != 7) {
 
 			Global.DataHolder.StartFlash ();
 			Global.DataHolder.ResetRoom ();

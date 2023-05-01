@@ -61,7 +61,7 @@ public class SmarticusBossManager : MonoBehaviour {
 			return;
 		}
 
-		if (Global.DataHolder.Player.TouchingGround > 0) {
+		if (Global.DataHolder.Player.TouchingGround > 0 && Global.DataHolder.Player.transform.position.y < -1) {
 			FightStarted = true;
 		}
 

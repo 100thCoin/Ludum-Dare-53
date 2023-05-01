@@ -21,6 +21,12 @@ public class BossBomb : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+		if (Global.DataHolder.GameIsPaused) {
+			RB.velocity = Vector3.zero;
+			return;
+		}
+
+
 		RB.velocity = Vel.normalized * Speed;
 	}
 

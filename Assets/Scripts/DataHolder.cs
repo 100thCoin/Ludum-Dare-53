@@ -232,6 +232,11 @@ public class DataHolder : MonoBehaviour {
 
 	public void ResetRoom()
 	{
+		if (LevelID == 7) {
+			return;
+		}
+
+
 		Destroy (CurrentLoadedLevel);
 		Destroy (CurrentLoadedToBeUnloaded);
 		LevelManager LM = Instantiate (LevelPrefabs [LevelID], new Vector3 (0, 0, 0), transform.rotation, transform).GetComponent<LevelManager>();

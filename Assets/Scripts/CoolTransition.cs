@@ -42,6 +42,8 @@ public class CoolTransition : MonoBehaviour {
 
 				if (Vertical) {
 
+					Global.DataHolder.Player.transform.position = new Vector3 (0, 0, -600);
+
 					LastRoomCam.transform.position = new Vector3 (0, T * -16, -100);
 					Global.DataHolder.MainCamera.transform.position = new Vector3 (0, T * -16, -100);
 					NextRoomCam.transform.position = new Vector3 (0, -200 + 16 - T * 16, -100);

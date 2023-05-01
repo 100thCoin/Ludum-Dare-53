@@ -86,6 +86,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 386b6cbdd3d71ff93d17eb5961824fd4 Assembly-CSharp.dll:.SmarticusBossManager
+c2a9f51ebc3f982c0b0fbf7ed59630c8 Assembly-CSharp.dll:.BombambleTile
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MeshRendererEditor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -127,6 +128,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 df8b5f1f56dfb79b112875bfe52ff3e1 Assembly-CSharp.dll:.RandomizeTiles
 3aedf785a92b43068b82a122c33a54e8 Assembly-CSharp.dll:.CameraShifter
+138e4418ff77f272fdd8bdb9338eca69 Assembly-CSharp.dll:.BossBomb
 19d2e9ffac821f3d6d58cefed1cbd9bd Assembly-CSharp.dll:.BoundMatManagerForTransition
 93fa7b5cb2266d635ea4e6f7d436b0f6 Assembly-CSharp.dll:.Main
 366c5c9b8834ff9408c225ac2f2e40f6 Assembly-CSharp.dll:.Shockwave
@@ -151,6 +153,7 @@ b2dc909bccf3c1d324e37513f830123e Assembly-CSharp.dll:.ScreenShiftCursor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 de4d9d052ba4d30c8e1d66d73b186762 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+ab66b11d56afbc47fa75195cc055e3eb Assembly-CSharp.dll:.FreezeObjectsInPause
 9e0ef5bf862444b5dc48b5a99554ce7c UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
@@ -167,11 +170,8 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+7d4cef03547df3fe1241738af688f1cc Assembly-CSharp.dll:.PauseMenuButtons
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 aeab6a3ed7bd6c0508f223076950fdc1 Assembly-CSharp.dll:.EntranceSlot
 6867399377ae5dab91724d5baa6cfa1d Assembly-CSharp.dll:.SFXVariety
 915ed657b7e931d92b22ba4e218a0598 Assembly-CSharp.dll:.AudioVolume
-7d4cef03547df3fe1241738af688f1cc Assembly-CSharp.dll:.PauseMenuButtons
-ab66b11d56afbc47fa75195cc055e3eb Assembly-CSharp.dll:.FreezeObjectsInPause
-c2a9f51ebc3f982c0b0fbf7ed59630c8 Assembly-CSharp.dll:.BombambleTile
-138e4418ff77f272fdd8bdb9338eca69 Assembly-CSharp.dll:.BossBomb
