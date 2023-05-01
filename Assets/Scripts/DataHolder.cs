@@ -319,7 +319,7 @@ public class DataHolder : MonoBehaviour {
 			if (WinTimer > 2.7f) {
 
 				VictoryScreen.SetActive (true);
-				VictoryTM.text = "Speenrun Time:\n" + StringifyTime (SpeedrunTime) + "\n\nResets: " + ResetCount;
+				VictoryTM.text = "Speedrun Time:\n" + StringifyTime (SpeedrunTime) + "\n\nResets: " + ResetCount;
 
 			}
 
